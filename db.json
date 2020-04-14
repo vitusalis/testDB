@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@a.com",
+      "password": "1234",
+      "adm": [
+        1,
+        2
+      ]
+    },
+    {
+      "name": "User",
+      "email": "user@a.com",
+      "password": "1234",
+      "adm": [],
+      "id": 685113071288793
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "name": "Circo Voador",
+      "address": "Rua dos Arcos s/ n - Lapa, Rio de Janeiro",
+      "capacity": 2200,
+      "phone": "2125330354",
+      "email": "contato@circovoador.com"
+    },
+    {
+      "id": 2,
+      "name": "Teatro Odisséia",
+      "address": "RuaAv. Mem de Sá, 66 - Centro, Rio de Janeiro",
+      "capacity": 700,
+      "phone": "2125332314",
+      "email": "contato@teatroodisseia.com"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "place_id": 1,
+      "name": "MGMT",
+      "date": "2020-06-06",
+      "description": "MGMT é uma banda americana de Rock Psicodélico formada em 2002 no Brooklyn por Ben Goldwasser e Andrew VanWyngarden.",
+      "image": "https://cdn.ome.lt/h6_LWZcrsT3-23_7ZPSDReVauTs=/480x360/smart/extras/conteudos/MGMT-feature.png",
+      "sponsor": {
+        "name": "Pepsi"
+      },
+      "tickets": 200
+    },
+    {
+      "id": 2,
+      "place_id": 1,
+      "name": "Duda Beat",
+      "description": "Eduarda Bittencourt Simões, mais conhecida como Duda Beat, é uma cantora e compositora brasileira. Nome recente da música brasileira, é apelidada de rainha da sofrência pop",
+      "image": "https://f.i.uol.com.br/fotografia/2019/10/07/15704511945d9b2efac1a18_1570451194_5x2_lg.jpg",
+      "date": "2020-10-27",
+      "sponsor": {
+        "name": "Heineken"
+      },
+      "tickets": 2200
+    },
+    {
+      "id": 3,
+      "place_id": 2,
+      "name": "Metronomy",
+      "date": "2020-05-06",
+      "image": "https://ogimg.infoglobo.com.br/in/23948908-3a8-41d/FT1500A/690/xMetronomy.jpg.pagespeed.ic.K3n0OcptzE.jpg",
+      "description": "Metronomy é uma banda britânica de música eletrônica formada em 1999.  O grupo lançou seis álbuns: Pip Paine, Nights Out, The English Riviera, Love Letters, Summer 08 e Metronomy Forever.",
+      "sponsor": {
+        "name": "Uber"
+      },
+      "tickets": 200
+    },
+    {
+      "id": 4,
+      "place_id": 2,
+      "name": "Letrux",
+      "image": "https://uploads.bemparana.com.br/upload/image/blogpost/tb2/blogpost_395863_img1_letrux_porsillashenrique_peq2_5.jpg",
+      "date": "2020-11-30",
+      "sponsor": {
+        "name": "MangoLab"
+      },
+      "tickets": 2200
+    },
+    {
+      "id": 5,
+      "place_id": 2,
+      "name": "Billie Eilish",
+      "image": "https://blog-images.saraiva.com.br/fotos/2019/12/billie-eilish2.jpg",
+      "description": "Billie Eilish Pirate Baird O'Connell, é uma cantora e compositora americana. Ela ganhou seguidores em 2016, quando lançou seu single de estreia \"Ocean Eyes\" no SoundCloud, posteriormente lançado pelas gravadoras Darkroom e Interscope Records.",
+      "date": "2020-05-21",
+      "sponsor": {
+        "name": "Budweiser"
+      },
+      "tickets": 700
+    }
+  ],
+  "purchases": []
+}
